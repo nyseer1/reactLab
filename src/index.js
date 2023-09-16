@@ -64,7 +64,7 @@ function StudentInfo(props) {
 function ClassList() {
   return (
     <div>
-      <h1 className="red-text">Welcome to CTP</h1>
+      <h1>Welcome to CTP</h1>
       <p>List of Students</p>
       {studentList.map((student) => (
         <StudentInfo {...student} key={student.sId} />
